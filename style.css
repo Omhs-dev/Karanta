@@ -4,26 +4,6 @@ body{
 	background-color: #E9ECEF;
 }
 
-.header{
-	background-image: url(image/slider-JORI-daydreamer.jpg);
-	height: 80vh;
-	background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-.haut{
-	position: relative;
-	bottom: 10%;
-}
-
-input{
-	font-size: 1.2em;
-	width: 8cm;
-	height: 2.5rem;
-	margin-left: 30Px;
-}
-
 .card img{
 	margin-top: -55px;
 }
@@ -37,23 +17,16 @@ input{
 	color: white;
 }
 
-.overlaycolor{
+.card-img-overlay{
 	background-color: rgba(52, 152, 219, 0.7);
+	height: 100%;
+	width: 100%;
+	max-width: 100%;
 }
 
 @media (max-width: 730px){
 	
-	.gros{
-		position: absolute;
-		right: -15%;
-		font-size: 3rem;
-	}
-
-	.haut{
-		margin-top: 155%;
-	}
-
-	.formulaire{
-		margin-left: 4%;
+	.card img{
+		height: 760px;
 	}
 }

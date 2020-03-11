@@ -12,46 +12,47 @@
 
 </head>
 <body>
-	<div>
+	
 	<nav class="navbar navbar-expand-md navbar-light bg-light border-bottom border-primary fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#"><img src="image/unnamed.png" alt="logo" height="30px">aranta</a>
 
-		<a class="navbar-brand" href="#"><img src="image/unnamed.png" alt="logo" height="30px">aranta</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navtoggle">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navtoggle">
-			<span class="navbar-toggler-icon"></span>
-		</button>
+			<div class="collapse navbar-collapse" id="navtoggle">
+				<ul class="navbar-nav ml-auto">
 
-		<div class="collapse navbar-collapse" id="navtoggle">
-			<ul class="navbar-nav ml-auto">
+					<li class="nav-item"> 
+						<a href="#" class="nav-link">Accueil</a>
+					</li>
 
-				<li class="nav-item"> 
-					<a href="#" class="nav-link">Accueil</a>
-				</li>
+					<li class="nav-item"> 
+						<a href="#" class="nav-link">À propos</a>
+					</li>
 
-				<li class="nav-item"> 
-					<a href="#" class="nav-link">À propos</a>
-				</li>
+					<li class="nav-item"> 
+						<a href="#" class="nav-link">Les Auteurs</a>
+					</li>
 
-				<li class="nav-item"> 
-					<a href="#" class="nav-link">Les Auteurs</a>
-				</li>
-
-				<li class="nav-item"> 
-					<a href="#" class="nav-link">Contact</a>
-				</li>
-				
-			</ul>
-		</div>
-		
+					<li class="nav-item"> 
+						<a href="#" class="nav-link">Contact</a>
+					</li>
+					
+				</ul>
+			</div>
+		</div>	
 	</nav>
-	</div>
+	
 
-	<header class="header">
-		<div class="container" style="background-color: rgba(52, 152, 219, 0.7); height: 100%;width: 100%; max-width: 100%;">
+	<div class="card rounded-0 bg-dark text-white">
+		<img src="image/slider-JORI-daydreamer.jpg" height="700px" class="card-img" alt="">
+		<div class="card-img-overlay">
 				<div class="row backgrou m-5 p-5 text-center">
 					<div class="col-md-12 col-lg-6 contenu text-white">
-						<h1 class="display-3 m-5 p-5 gros">Lire et Écrire, Compter, Coder...</h1>
-						<p class="text-break haut"><i class="fas fa-arrow-alt-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit ectetur adipisicing eli.</p>
+						<h1 class="card-title display-3 pt-4">Lire et Écrire,<br> Compter,<br> Coder...</h1>
+						<p class="card-text mb-2"><i class="fas fa-arrow-alt-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit ectetur adipisicing eli.</p>
 
 						<button class="btn btn-outline-light haut1"><i class="fas fa-arrow-right"></i>Voir plus</button>
 					</div>	
@@ -61,16 +62,24 @@
 					</div>		
 			    </div>
 		</div>
-	</header>
+	</div>
 
 	<main>
 		<div class="main">
 			<div class="bg-dark">
-				<div class="row form-group formulaire p-5 justify-content-center">
-					<div col-12>
-					<input type="text" class="" placeholder="Entrer votre nom" />
-					<input type="text" class="" placeholder="Envoyer votre Email" />
-					<input type="submit" class="btn envoyer bg-success" name="submit" value="Souscrire" />
+				<div class="container p-5 justify-content-center">
+					<div class="row">
+						<div class="col-md-4 col-sm-12 form-group">
+							<input type="text" class="form-control" placeholder="Entrer votre nom" />
+						</div>
+
+						<div class="col-md-4 col-sm-12 form-group">
+							<input type="text" class="form-control" placeholder="Envoyer votre Email" />
+						</div>
+						
+						<div class="col-md-4 col-sm-12 form-group">
+							<input type="submit" class="form-control btn envoyer bg-success" name="submit" value="Souscrire" />
+						</div>
 					</div>
 				</div>
 			</div>
