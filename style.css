@@ -1,11 +1,12 @@
 body{
 	padding: 0;
 	margin: 0;
-	background-color: #E9ECEF;
 }
-
-.card img{
-	margin-top: -55px;
+.card-img-overlay{
+	background-color: rgba(52, 152, 219, 0.7);
+	height: 100%;
+	width: 100%;
+	max-width: 100%;
 }
 
 .bleu:hover{
@@ -17,16 +18,3 @@ body{
 	color: white;
 }
 
-.card-img-overlay{
-	background-color: rgba(52, 152, 219, 0.7);
-	height: 100%;
-	width: 100%;
-	max-width: 100%;
-}
-
-@media (max-width: 730px){
-	
-	.card img{
-		height: 760px;
-	}
-}

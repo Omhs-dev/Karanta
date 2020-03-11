@@ -1,72 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Karanta</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<title></title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.1/css/font-awesome.min.css">
-
 </head>
+
 <body>
-	
-	<nav class="navbar navbar-expand-md navbar-light bg-light border-bottom border-primary fixed-top">
-		<div class="container">
-			<a class="navbar-brand" href="#"><img src="image/unnamed.png" alt="logo" height="30px">aranta</a>
+	<header>
+		<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top border-bottom border-primary">
+			<div class="container">
+				<a href="#" class="navbar-brand"><img src="image/unnamed.png" alt="img" height="30px">aranta</a>
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navtoggle">
-				<span class="navbar-toggler-icon"></span>
-			</button>
+				<div class="collapse navbar-collapse" id="menu">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"> 
+							<a href="#" class="nav-link">Accueil</a>
+						</li>
 
-			<div class="collapse navbar-collapse" id="navtoggle">
-				<ul class="navbar-nav ml-auto">
+						<li class="nav-item"> 
+							<a href="#pourquoi" class="nav-link">À propos</a>
+						</li>
 
-					<li class="nav-item"> 
-						<a href="#" class="nav-link">Accueil</a>
-					</li>
+						<li class="nav-item"> 
+							<a href="#auteur" class="nav-link">Les Auteurs</a>
+						</li>
 
-					<li class="nav-item"> 
-						<a href="#pourquoi" class="nav-link">À propos</a>
-					</li>
+						<li class="nav-item"> 
+							<a href="#ecrire" class="nav-link">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>		
+		</nav>
 
-					<li class="nav-item"> 
-						<a href="#auteur" class="nav-link">Les Auteurs</a>
-					</li>
+		<div class="card rounded-0 bg-dark text-white">
+			<img src="image/slider-JORI-daydreamer.jpg" height="700px" class="card-img" alt="">
+			<div class="card-img-overlay">
+					<div class="row text-center">
+						<div class="col-md-12 col-lg-6 contenu text-white mt-5">
+							<h1 class="card-title display-3 pt-4">Lire et Écrire,<br> Compter,<br> Coder...</h1>
+							<p class="card-text mb-2"><i class="fas fa-arrow-alt-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit ectetur adipisicing eli.</p>
 
-					<li class="nav-item"> 
-						<a href="#ecrire" class="nav-link">Contact</a>
-					</li>
-					
-				</ul>
+							<button class="btn btn-outline-light haut1"><i class="fas fa-arrow-right"></i>Voir plus</button>
+						</div>	
+
+						<div class="col-md-12 col-lg-6 d-none d-md-block contenu text-white pt-5 mt-5">
+							<img src="image/classe.jpg" alt="photo" width="400px" height="400px">
+						</div>		
+				    </div>
 			</div>
-		</div>	
-	</nav>
-	
-
-	<div class="card rounded-0 bg-dark text-white">
-		<img src="image/slider-JORI-daydreamer.jpg" height="700px" class="card-img" alt="">
-		<div class="card-img-overlay">
-				<div class="row backgrou m-5 p-5 text-center">
-					<div class="col-md-12 col-lg-6 contenu text-white">
-						<h1 class="card-title display-3 pt-4">Lire et Écrire,<br> Compter,<br> Coder...</h1>
-						<p class="card-text mb-2"><i class="fas fa-arrow-alt-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit ectetur adipisicing eli.</p>
-
-						<button class="btn btn-outline-light haut1"><i class="fas fa-arrow-right"></i>Voir plus</button>
-					</div>	
-
-					<div class="col-md-12 col-lg-6 d-none d-md-block contenu text-white pt-5 mt-5">
-						<img src="image/classe.jpg" alt="photo" width="400px" height="400px">
-					</div>		
-			    </div>
 		</div>
-	</div>
+	</header>
 
-	<main>
-		<div class="main">
-			<div class="bg-dark">
+	<section>
+			<div class="bg-dark w-100">
 				<div class="container p-5 justify-content-center">
 					<div class="row">
 						<div class="col-md-4 col-sm-12 form-group">
@@ -83,40 +78,45 @@
 					</div>
 				</div>
 			</div>
+	</section>
 
-			<div class="row justify-content-center text-center pb-5 pt-4 bg-white">
-				<div class="col-lg-2 col-md-12">
-					<div class="border border-primary">
+	<section>
+		<div class="container">
+			<div class="row p-4 text-center">
+				<div class="col-lg-3 col-md-12">
+					<div class="border border-primary p-2">
 						<h3>Be Better</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum beatae voluptates labore porro accusamus, aliquid minus excepturi, tempora architecto ipsam.</p>
 					</div>
 				</div>
 
-				<div class="col-lg-2 col-md-12">
-					<div class="border border-primary bg-primary text-white">
+				<div class="col-lg-3 col-md-12">
+					<div class="border border-primary bg-primary text-white p-2">
 						<h3>Be Smarter</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum beatae voluptates labore porro accusamus, aliquid minus excepturi, tempora architecto ipsam.</p>
 					</div>
 				</div>
 
-				<div class="col-lg-2 col-md-12">
-					<div class="border border-primary">
+				<div class="col-lg-3 col-md-12">
+					<div class="border border-primary p-2">
 						<h3>Be Faster</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum beatae voluptates labore porro accusamus, aliquid minus excepturi, tempora architecto ipsam.</p>
 					</div>
 				</div>
 
-				<div class="col-lg-2 col-md-12">
-					<div class="border border-primary bg-primary  text-white">
+				<div class="col-lg-3 col-md-12">
+					<div class="border border-primary bg-primary  text-white p-2">
 						<h3>Be Stronger</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum beatae voluptates labore porro accusamus, aliquid minus excepturi, tempora architecto ipsam.</p>
 					</div>
 				</div>
 			</div>
+		</div>
+	</section>
 
-			<div class="jumbotron text-center justify-content-center pt-5 bg" id="pourquoi"> <!-- jumbutron -->
-				<div class="row">
-					<div class="col-12">
+	<div class="jumbotron">
+		<div class="container">
+			<div class="" id="pourquoi">
 						<div class="text-center justify-content-center pb-1">
 							<h2>Pourquoi ce livre ?</h2>
 							<p class="text-break">Lorem ipsum dolor sit amet,consectetur adipisicing elit. Hic perspiciatis illo <br/>architecto soluta quia quas quis, excepturi et adipisci, ea consequuntur.</p>
@@ -125,7 +125,7 @@
 					</div>
 
 
-					<div class="col-12">
+					<div class="text-center">
 						<div class="accordion container" id="accordionExample">
 
 
@@ -178,11 +178,12 @@
 						  </div>
 						</div>
 					</div>
-				</div>			
-			</div> <!-- end jumbutron -->
-			
-			<div class="pb-5 bg-white" id="auteur">
-				<div class="text-center">
+		</div>
+	</div>
+
+	<section>
+		<div class="pb-4" id="auteur"> 
+			<div class="text-center">
 					<h2>Les auteurs</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br/> Iste iure, veniam eum vel assumenda! Est ducimus ab excepturi.</p>
 
@@ -285,9 +286,11 @@
 					</div> <!-- fin deck -->
 					</div> <!-- fin container -->
 				</div>
-			</div>
+		</div>
+	</section>
 
-			<div class="jumbotron pt-4 pb-2">
+	<section>
+		<div class="jumbotron mb-0" id="ecrire">
 				<div class="container">
 					<div class="row">
 						
@@ -322,7 +325,10 @@
 							  </div>
 							  <textarea class="form-control" aria-label="Message" cols="15" rows="6" placeholder="Message"></textarea>
 							</div>
-
+							<div class="text-center pt-3">
+								<input type="button" class="btn btn-primary w-100" value="Envoyer">
+							</div>
+							
 						</div>
 
 						<div class="col-6 d-none d-md-block">
@@ -330,16 +336,18 @@
 						</div>
 					</div>
 				</div>
-			</div>
-
-		</div> <!-- div main -->
-	</main>
+		</div>
+	</section>
 
 	<footer class="footer bg-primary pt-5 pb-5">
 		<div class="text-center text-white">
 			Copyright &copy Karanta
 		</div>
 	</footer>
+
+
+
+
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
